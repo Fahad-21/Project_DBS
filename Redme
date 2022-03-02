@@ -1,0 +1,13 @@
+This code aims to provide a example of web programming. Because of its simplicity, back-end rendering was employed in this example. Several frameworks enable alternative (and nicer) web development approaches. We have kept our code simple and easy to understand and tried to add comment in each section of code.
+
+The following items should already be present in your environment or setup:
+
+How to install and run Flask
+How to have the front-end interact with the back-end using Ajax.
+How to carry out back-end rendering and give data to a client
+How to link a local flask server to MySQL GCP
+How to use Linux Platform's app engine to launch a flask application.
+
+WSL 2 was used to produce this lesson (Windows Linux subsystem, aka bash on windows).As a result, it should run on both Mac and Linux systems.There could be a tiny difference in the terminal output, but that's it. The objective is to create a tiny web application using Python, Flask, and MySQL from the ground up. It will be a simple bucket list program that allows people to sign up, log in, and create their own bucket list.
+
+As already stated, This tutorial assumes that you already know how to program in Python. Flask, a Python web application framework, will be used to create our software, with MySQL as the back end.
