@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Defining our title here-->
+    <title>Flask Bucket List MyApp</title>
+    <!--Including base css file so that we utilise the key functionalities-->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--This is use defined css class which we have created seperately and utilizing its css here in this file.-->
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!--Define a container in div tag to display Home, Sign In and Sign Up and utilise the corresponding css from the related file-->
+    <div class="container">
+        <div class="header">
+            <nav>
+                <!---->
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a>
+                    </li>
+                    <li role="presentation"><a href="#">Sign In</a>
+                    </li>
+                    <li role="presentation"><a href="showSignUp">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Python Flask App</h3>
+        </div>
+        <!--Create a button named as "Sign up" where <a> is anchor tag-->
+        <div class="jumbotron">
+            <h1>Bucket List App</h1>
+            <p class="lead"></p>
+            <p><a class="btn btn-lg btn-success" href="showSignUp" role="button">Sign up</a>
+            </p>
+        </div>
+        <!--Define <h4> and paragraph (<p>) tag-->
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Bucket List</h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+                <h4>Bucket List</h4>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+                <h4>Bucket List</h4>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+
+            <div class="col-lg-6">
+                <h4>Bucket List</h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+                <h4>Bucket List</h4>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+                <h4>Bucket List</h4>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+        </div>
+
+        <!--Defining footer of page and utilizing footer css class-->
+        <footer class="footer">
+            <p>&copy; Company 2021</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
